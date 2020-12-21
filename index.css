@@ -1,0 +1,117 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+/* .main_note{
+  width: 100%;
+  height: 100vh;
+  background: blueviolet;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.center_div{
+  height: 80vh;
+  width: 25%;
+  background-color: cadetblue;
+  border-radius: 10px;
+}
+.header{
+  background-color: rgb(137, 241, 241);
+  text-align: center;
+  
+}
+.ip{
+  border-radius: 5px;
+  width: 70%;
+  height: 40px;
+  text-align: center;
+
+}
+
+button{
+  padding: 12px 20px;
+  background:blueviolet;
+  color: azure;
+  border: 2px solid white;
+  outline: none;
+  border-radius: 5%;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.btn_div{
+  width: 100%;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+}
+button:hover {
+  background-color: darkgreen;
+} */
+.navbar{
+  background-color: #fff;
+}
+.navbar-brand{
+  font-size: 1.9rem !important;
+  color: rgb(8, 117, 141) !important;
+
+}
+.navbar a{
+  font-size: 1.3rem;
+  text-transform: uppercase ;
+}
+a{
+  color: aquamarine;
+  outline: none;
+}
+a.active-class{
+  color: rgb(14, 180, 240);
+  border-bottom: 1px solid black;
+}
+/* .menu{
+  background-color: rgb(35, 39, 39);
+  width: 100%;
+  line-height: 60px;
+  display: flex;
+  justify-content: space-around;
+} */
+#header{
+  width: 100%;
+  height: 60vh;
+  margin: 70px;
+}
+.explore-btn{
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 10px;
+  display: inline-block;
+  transition: 0.3s;
+  color:  rgb(22, 34, 202);
+  border: 2px solid rgb(22, 34, 202);
+  background-color: rgb(67, 197, 240);
+  text-decoration: none;
+  border-radius: 50px;
+}
+.explore-btn:hover{
+  background-color: white;
+  color: rgb(33, 151, 214);
+}
+/* 
+#header .animated{
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+} */
+/* @-webkit-keyframes up-down{
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+transform: translateY(-10px); 
+  }
+} */
+/* .menu_active{
+  font-weight: bold;
+  border-bottom: 1px solid red;
+} */
